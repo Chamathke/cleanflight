@@ -69,3 +69,4 @@ If you want tighter or more loose ranges change them here. gtune_loP_XXX can be 
 If you want to exclude one axis from the tuning you must set gtune_hiP_XXX to zero. Let's say you want to disable yaw tuning write in CLI `set gtune_hiP_yw = 0`. Note: The MultiWii Wiki advises you to trim the yaw axis on your transmitter. If you have done so (yaw not neutral on your RC) yaw tuning will be disabled.
 
 You can adjust the strength of tuning by using `set gtune_pwr = N`. My small copter works fine with 0 and doesn't like a value of "3". My big copter likes "gtune_pwr = 5". It shifts the tuning to higher values and if too high can diminish the wobble blocking! So start with 0 (default). If you feel your resulting P is always too low for you, increase gtune_pwr. You will see it getting a little shaky if value is too high.
+Check out this short YouTube video: https://www.youtube.com/watch?v=uNrfwzk5nlk&t=262s
